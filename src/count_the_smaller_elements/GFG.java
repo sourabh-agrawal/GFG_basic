@@ -10,7 +10,9 @@ public class GFG {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
 
+        //no of test cases
         int query = Integer.parseInt(br.readLine().trim());
+
         while(query-->0){
             int size = Integer.parseInt(br.readLine().trim());
             String s = br.readLine().trim();
